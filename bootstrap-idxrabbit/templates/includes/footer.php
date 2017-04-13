@@ -2,9 +2,8 @@
 	</div><!-- ./main-row -->
 </div><!-- ./main-container -->
 
-<footer class="blog-footer">
-  	<p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-  	<p>
-    	<a href="#">Back to top</a>
-  	</p>
+ <footer class="footer">
+    <div class="container">
+        <p class="text-muted">Place sticky footer content here.</p>
+    </div>
 </footer>
