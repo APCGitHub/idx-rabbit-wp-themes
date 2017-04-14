@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="row">
+<div class="row" id="idxrabbit-app">
 	<div class="col-sm-12 col-md-8">
 		<?php 
 			if ( have_posts() ) : while ( have_posts() ) : the_post();
