@@ -1,0 +1,20 @@
+{
+  "name": "bootstrap-idxrabbit",
+  "description": "IDX Rabbit theme built on bootstrap",
+  "main": "index.js",
+  "authors": [
+    "Andrew Clinton <ddrew.clinton@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Anecka/idx-rabbit-wp-themes",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
