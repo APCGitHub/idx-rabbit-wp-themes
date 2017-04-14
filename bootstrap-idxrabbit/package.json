@@ -17,9 +17,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^0.16.1",
+    "bluebird": "^3.5.0",
     "bootstrap": "^3.3.7",
     "bootstrap-sass": "^3.3.7",
     "jquery": "^3.2.1",
-    "laravel-mix": "^0.10.0"
+    "laravel-mix": "^0.10.0",
+    "qs": "^6.4.0",
+    "swiper": "^3.4.2",
+    "vue": "^2.2.6"
   }
 }
