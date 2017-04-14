@@ -2,6 +2,7 @@
 
 add_action('after_setup_theme', 'bootstrap_idxrabbit_theme_setup');
 add_filter('nav_menu_css_class' , 'bootstrap_idxrabbit_special_nav_class' , 10 , 2);
+add_rewrite_rule('^property-details/([^/]+)/?$','index.php?pagename=property-details&listing_id=$matches[1]','top');
 
 function bootstrap_idxrabbit_theme_setup()
 {
