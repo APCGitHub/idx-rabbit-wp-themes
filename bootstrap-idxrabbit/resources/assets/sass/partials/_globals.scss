@@ -30,3 +30,37 @@ body {
     }
   }
 }
+
+.list-container {
+  .list-item {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 15px;
+  }
+
+  .list-item ul {
+    list-style-type: none;
+  }
+
+  .list-item p {
+    margin-bottom: 0;
+  }
+
+  .list-item .right {
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .list-item .left {
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .list-item .address {
+    font-size: 1.2em;
+  }
+}
+
+.modal .right {
+  border-left: 1px solid #cfcfcf;
+}
