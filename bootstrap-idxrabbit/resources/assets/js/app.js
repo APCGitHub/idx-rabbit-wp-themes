@@ -2,6 +2,7 @@ import "./bootstrap";
 
 if(document.getElementById('idxrabbit-app')) {
 	const app = new Vue({
-		el: '#idxrabbit-app'
+		el: '#idxrabbit-app',
+		delimiters: ['[[', ']]'],
 	});
 }
