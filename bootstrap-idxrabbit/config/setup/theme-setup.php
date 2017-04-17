@@ -27,6 +27,9 @@ function bootstrap_idxrabbit_special_nav_class ($classes, $item)
 function bootstrap_idxrabbit_query_vars_filter($vars)
 {
 	$vars[] = 'do';
+	$vars[] = 'per_page';
+	$vars[] = 'skip';
+	$vars[] = 'orderby';
 
 	return $vars;
 }
