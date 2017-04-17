@@ -10762,6 +10762,38 @@ body {
   margin-top: 0 !important;
 }
 
+.list-container .list-item {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 15px;
+}
+
+.list-container .list-item ul {
+  list-style-type: none;
+}
+
+.list-container .list-item p {
+  margin-bottom: 0;
+}
+
+.list-container .list-item .right {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.list-container .list-item .left {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.list-container .list-item .address {
+  font-size: 1.2em;
+}
+
+.modal .right {
+  border-left: 1px solid #cfcfcf;
+}
+
 .panel {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
